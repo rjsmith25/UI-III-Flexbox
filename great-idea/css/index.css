@@ -151,6 +151,10 @@ h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+p {
+  line-height: 1.2;
+}
+
 .container {
   width: 100%;
   max-width: 1020px;
@@ -270,4 +274,84 @@ h5 {
 
 footer {
   padding-bottom: 40px;
+}
+
+.header-service-image {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.header-service-image img {
+  width: 100%;
+}
+
+.header-service-info .content {
+  margin-bottom: 36px;
+}
+
+.header-service-info h2 {
+  font-size: 28px;
+}
+
+.services-main .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-main .row .content {
+  width: 50%;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: #f4f3f4;
+  margin: 20px;
+}
+
+.services-main .row .content:first-child {
+  margin-left: 0;
+}
+
+.services-main .row .content:last-child {
+  margin-right: 0;
+}
+
+.services-main .row .content button {
+  width: 120px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 20px 0;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.services-facts .row {
+  display: flex;
+}
+
+.services-facts .content {
+  width: 50%;
+}
+
+.services-facts .content:first-child {
+  margin-right: 20px;
+}
+
+.service-facts-image img {
+  width: 100%;
+}
+
+.services-facts > .container {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.services-facts-list {
+  margin-top: 20px;
+  margin-left: 18px;
+  list-style: square;
+}
+
+.services-facts-list li {
+  margin-bottom: 10px;
 }
